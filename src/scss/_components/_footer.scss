@@ -1,0 +1,188 @@
+.wrapper-footer {
+    max-width: 100%;
+    background-color: var(--primary);
+    padding-top: 18px;
+    padding-bottom: 14px;
+}
+
+.container-footer {
+    max-width: 621px;
+    padding-right: 16px;
+    padding-left: 16px;
+    margin: 0 auto;
+}
+
+.footer {
+    font-family: 'Montserrat', sans-serif;
+    color: var(--details);
+}
+
+.tit {
+    font-family: 'Aleo', sans-serif;
+}
+
+.copyright {
+    font-size: 13px;
+    line-height: 24px;
+}
+
+.privasy {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 8px;
+    line-height: 8px;
+    margin-top: 34px;
+}
+
+.socials a {
+    color: var(--details);
+    text-decoration: none;
+    font-size: 16px;
+    margin: 5px;
+}
+
+.socials a:hover {
+    color: var(--secondary);
+}
+
+.logo-footer {
+    max-width: 63px;
+}
+
+.copyright div {
+    text-align: center;
+}
+
+.touch p {
+    margin: 0 auto 0;
+    font-size: 9px;
+    line-height: 15px;
+    max-width: 340px;
+    text-align: center;
+}
+
+.socials {
+    padding-top: 11px;
+    padding-bottom: 11px;
+}
+
+.keep {
+    font-size: 10px;
+    line-height: 14px;
+}
+
+.touch div {
+    text-align: center;
+}
+
+@media (min-width:992px) {
+    .footer {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .wrapper-footer {
+        padding-top: 38px;
+        padding-bottom: 34px;
+    }
+
+    .container-footer {
+        max-width: 803px;
+    }
+
+    .logo-footer {
+        display: inline-block;
+    }
+
+    .touch {
+        max-width: 212px;
+    }
+
+    .touch div {
+        text-align: left;
+    }
+
+    .to-logo {
+        display: inline-block;
+        margin-left: 13px;
+    }
+
+    .private {
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .copyright div {
+        text-align: left;
+    }
+}
+
+@media (min-width:1920px) {
+    .footer {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .wrapper-footer {
+        padding-top: 60px;
+        padding-bottom: 55px;
+    }
+
+    .container-footer {
+        max-width: 1219px;
+        padding-right: 16px;
+        padding-left: 16px;
+        margin: 0 auto;
+    }
+
+    .logo-footer {
+        max-width: 101px;
+        display: inline-block;
+    }
+
+    .touch {
+        max-width: 339px;
+    }
+
+    .to-logo {
+        display: inline-block;
+        margin-left: 20px;
+    }
+    
+    .logof {
+        display: flex;
+        align-items: center;
+    }
+
+    .private {
+        font-size: 22px;
+        line-height: 26px;
+    }
+
+    .keep {
+        font-size: 17px;
+        line-height: 22px;
+    }
+
+    .privasy {
+        letter-spacing: 1px;
+        font-size: 12px;
+        line-height: 12px;
+        margin-top: 55px;
+    }
+
+    .touch p {
+        font-size: 13px;
+        line-height: 24px;
+    }
+
+    .socials a {
+        font-size: 26px;
+        margin: 8px;
+    }
+
+    .socials {
+        padding-top: 18px;
+        padding-bottom: 18px;
+    }
+}

@@ -1,0 +1,112 @@
+.wrapper-advantages {
+    background-color: #EDF8F9;
+    padding-bottom: 31px;
+}
+
+.advantage {
+    text-align: center;
+    font-family: 'Segoe UI', sans-serif;
+    margin-bottom: 20px;
+}
+
+.text-advantage {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.icon {
+    background-color: var(--primary);
+    color: var(--details);
+    border-radius: 50%;
+    margin: 0;
+    font-size: 20px;
+    padding: 7px;  
+}
+
+.more {
+    color: var(--primary);
+    text-decoration: none;
+    font-size: 7px;
+    line-height: 14px;
+    letter-spacing: 0.42px;
+}
+
+.more:hover {
+    color: var(--secondary);
+}
+
+.advantage .text-advantage {
+    font-size: 7px;
+    line-height: 14px;
+    letter-spacing: 0.42px;
+}
+
+@media (min-width: 992px) {
+    .advantage .text-advantage {
+        font-size: 9px;
+        line-height: 20px;
+    }
+    
+    .more {
+        font-size: 9px;
+        line-height: 20px;
+    }
+
+    .icon {
+        font-size: 28px;
+        padding: 9px;  
+    }
+}
+
+
+@media (min-width: 1200px) {
+    .advantages {
+        margin: 0 -36px 0;
+    } 
+
+    .advantage {
+        max-width: 175px;
+        display: inline-block;
+        margin-right: 36px;
+        margin-left: 36px;
+    }
+
+    .advantage .text-advantage {
+        text-align: left;
+    }
+}
+
+@media (min-width: 1920px) {
+    .wrapper-advantages {
+        padding-bottom: 50px;
+    }
+
+    .advantages {
+        margin: 0 -57px 0;
+    } 
+
+    .advantage {
+        max-width: 280px;
+        display: inline-block;
+        margin-right: 55px;
+        margin-left: 55px;
+    }
+
+    .advantage .text-advantage {
+        text-align: left;
+        font-size: 14px;
+        line-height: 20px;
+        letter-spacing: 0.42px;
+    }
+
+    .icon {
+        font-size: 45px;
+        padding: 15px;   
+    }
+    
+    .more {
+        font-size: 14px;
+        line-height: 20px;
+        letter-spacing: 0.42px;
+    }
+}

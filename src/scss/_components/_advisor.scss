@@ -1,0 +1,349 @@
+.wrapper {
+    max-width: 100%;
+    background-color: var(--primary);
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+
+.block {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+
+.background {
+    max-width: 100%;
+}
+
+.back {
+    position: relative;
+}
+
+.info {
+    display: flex;
+    align-items: center;
+}
+
+.advisors {
+    position: absolute;
+    font-family: 'Roboto', sans-serif;
+    top: 0;
+}
+
+.info-text {
+    display: inline-block;
+}
+
+.tel {
+    text-align: center;
+    color: var(--details);
+    background-color: var(--secondary);
+    border-radius: 5px;
+    text-decoration: none;
+    border: 1px solid var(--details);
+    font-size: 5px;
+    line-height: 7px;
+    padding: 3px 33px 4px;
+}
+
+.stock {
+    color: var(--details);
+    background-color: var(--primary);
+    border-radius: 3px 0px 0px 3px;
+    font-size: 8px;
+    line-height: 7px;
+    padding: 3px 20px 3px 4px;
+}
+
+.chat {
+    text-align: center;
+    display: block;
+    color: var(--details);
+    background-color: var(--primary);
+    border-radius: 5px;
+    text-decoration: none;
+    border: 1px solid var(--primary);
+    padding: 3px 16px 3px;
+    font-size: 5px;
+    line-height: 7px;
+    margin-top: 5px;
+}
+
+.call a:hover  {
+    color: var(--primary);
+    border: 1px solid var(--primary);
+    background: none;
+}
+
+.link-btn a {
+    color: var(--details);
+    background-color: var(--primary);
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 5px;
+    line-height: 7px;
+    padding: 4px 20px 5px;
+    margin: 6px;
+}
+
+.link-btn {
+    text-align: center;
+    position: relative;
+    margin-top: 20px;
+}
+
+.img {
+    position: absolute;
+}
+
+.link-btn a:hover {
+    background-color: var(--secondary);
+}
+
+.info-text {
+    margin-left: 10px;
+}
+
+.portrait {
+    max-width: 77px;
+}
+
+.info-text p {
+    font-size: 7px;
+    line-height: 10px;
+    max-width: 240px;
+    margin-top: 2px;
+}
+
+.cost {
+    font-size: 11px;
+    line-height: 14px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+.tel i {
+    margin-right: 4px;
+}
+
+.chat i {
+    margin-right: 4px;
+}
+
+.vector {
+    max-width: 30px;
+}
+
+.arrow {
+    max-width: 17px;
+}
+
+.img {
+    right: 85px;
+    top: -10px;
+}
+
+@media (min-width: 992px) {
+    .info-text {
+        margin-left: 8px;
+    }
+
+    .advisors {
+        top: 0px;
+        left: 206px;
+    }
+
+    .portrait {
+        max-width: 78px;
+    }
+
+    .block {
+        margin-top: 31px;
+    }
+
+    .info-text p {
+        font-size: 10px;
+        line-height: 15px;
+        max-width: 286px;
+        margin-top: 8px;
+    }
+
+    .stock {
+        font-size: 8px;
+        line-height: 7px;
+        padding: 3px 31px 3px 4px;
+    }
+
+    .cost {
+        font-size: 14px;
+        line-height: 14px;
+        margin-top: 4px;
+        margin-bottom: 19px;
+    }
+
+    .tel {
+        font-size: 11px;
+        line-height: 11px;
+        padding: 6px 19px 8px;
+    }
+
+    .tel i {
+        margin-right: 11px;
+    }
+
+    .chat {
+        padding: 5px 16px 5px;
+        font-size: 11px;
+        line-height: 18px;
+        margin-top: 19px;
+    }
+
+    .chat i {
+        margin-right: 11px;
+    }
+
+    .call {
+        margin-left: 100px;
+    }
+
+    .link-btn a {
+        font-size: 9px;
+        line-height: 10px;
+        padding: 9px 37px 10px;
+        margin: 6px;
+    }
+
+    .link-btn {
+        margin-top: 32px;
+    }
+
+    .vector {
+        max-width: 51px;
+    }
+
+    .arrow {
+        max-width: 30px;
+    }
+
+    .img {
+        right: 65px;
+        top: -30px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .info-text {
+        margin-left: 13px;
+    }
+
+    .advisors {
+        top: 0px;
+        left: 250px;
+    }
+
+    .portrait {
+        max-width: 94px;
+    }
+
+    .block {
+        margin-top: 38px;
+    }
+
+    .call {
+        margin-left: 178px;
+    }
+
+    .img {
+        right: 115px;
+        top: -25px;
+    }
+}
+
+@media (min-width: 1920px) {
+    .advisors {
+        top: 0px;
+        left: 400px;
+    }
+
+    .wrapper {
+        padding-top: 55px;
+        padding-bottom: 55px;
+    }
+
+    .portrait {
+        max-width: 150px;
+    }
+
+    .block {
+        margin-top: 60px;
+    }
+
+    .info-text p {
+        font-size: 16px;
+        line-height: 24px;
+        max-width: 458px;
+        margin-top: 13px;
+    }
+
+    .stock {
+        font-size: 12px;
+        line-height: 12px;
+        padding: 5px 50px 5px 6px;
+    }
+
+    .cost {
+        font-size: 22px;
+        line-height: 22px;
+        margin-top: 6px;
+        margin-bottom: 30px;
+    }
+
+    .tel {
+        font-size: 17px;
+        line-height: 18px;
+        padding: 9px 30px 13px;
+    }
+
+    .tel i {
+        margin-right: 18px;
+    }
+
+    .chat {
+        padding: 13px 25px 13px;
+        font-size: 17px;
+        line-height: 18px;
+        margin-top: 30px;
+    }
+
+    .chat i {
+        margin-right: 18px;
+    }
+
+    .call {
+        margin-left: 286px;
+    }
+
+    .link-btn a {
+        font-size: 15px;
+        line-height: 16px;
+        padding: 15px 60px 17px;
+        margin: 10px;
+    }
+
+    .link-btn {
+        margin-top: 52px;
+    }
+
+    .vector {
+        max-width: 81px;
+    }
+
+    .arrow {
+        max-width: 48px;
+    }
+
+    .img {
+        right: 175px;
+        top: -45px;
+    }
+}
